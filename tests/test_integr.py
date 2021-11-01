@@ -1,6 +1,6 @@
-from Integer.integr import parse
+from proj.integr import parse
 
 
-def test_basic():
+def test_parse():
     s = parse("1,2,3,4")
     assert isinstance(s, list)
